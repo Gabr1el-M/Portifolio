@@ -4,13 +4,28 @@
 
     display: flex;
     align-items: center;
-    justify-content: baseline;
-
+    justify-content:space-between;
     p {
         margin-left: 1rem;
         color: white;
         font-size: 20px;
         padding: 0 6px;
+    }
+}
+
+.headerContent {
+    display: flex;
+}
+
+@media (max-width: 477px) {
+    .svg {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 
@@ -80,12 +95,13 @@
 }
 
 .tec {
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
     width: 70px;
     height: 60px;
     padding: 6px;
 
     &:hover {
-        color: white;
         font-size: 20px;
         transition: 0.5s;
         transform: scale(1.2);
@@ -102,6 +118,7 @@
     .tecs {
         width: 50%;
         margin: 0 auto;
+        margin-top: 10px;
     }
 
     .tec {

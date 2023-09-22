@@ -1,19 +1,20 @@
 import '../app/globals.css'
 
-import Head from "next/head";
-// import Image from 'next/image';
+import Image from 'next/image';
 
 import styles from './page.module.scss';
-// import background from "../../public/images/background.jpg"
+import background from "../../public/images/background.jpg"
 import Link from 'next/link';
 
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Home</title>
-      </Head>
+    <div>
+      {/* <Image
+        className={styles.img}
+        src={background}
+        alt="foto de fundo"
+      /> */}
 
       <main className={styles.container}>
         <h1>SEJA BEM VINDO AO MEU PORTIFÓLIO!</h1>
@@ -24,6 +25,6 @@ export default function Home() {
           Bora lá?
         </div>
       </Link>
-    </>
+    </div>
   )
 }
