@@ -16,9 +16,9 @@ export default function Personal() {
             <div className={style.header}>
                 <Link id={style.link} href="/about"><p>Home</p></Link>
                 <div className={style.content}>
-                    <Link href="https://github.com/Gabr1el-M" target="_blank" className={style.link}>
+                    {/* <Link href="https://github.com/Gabr1el-M" target="_blank" className={style.link}>
                         <SiGithub className={style.svg} />
-                    </Link>
+                    </Link> */}
                     <Link href="https://www.linkedin.com/in/gabriel-mart1ns/" target="_blank" className={style.link}>
                         <SiLinkedin className={style.svg} />
                     </Link>

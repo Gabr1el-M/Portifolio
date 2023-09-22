@@ -29,8 +29,8 @@ export default function About() {
         <>
             <header className={style.header}>
                 <div className={style.headerContent}>
-                    <Link id={style.link} href="/"><p>Inicio</p></Link>
-                    <Link id={style.link} href="../personal"><p>Sobre mim</p></Link>
+                    <Link className={style.link} href="/"><p>Inicio</p></Link>
+                    <Link className={style.link} href="../personal"><p>Sobre mim</p></Link>
                 </div>
                 <div className={style.svg}>
                     <Image
@@ -47,13 +47,19 @@ export default function About() {
 
                 <div className={style.content}>
                     <div className={style.projects}>
-                        <p>Projeto 1</p>
+                        <Link target="_blank" className={style.linkProjects} href="https://github.com/Gabr1el-M/System">
+                            System
+                        </Link>
                     </div>
                     <div className={style.projects}>
-                        <p>Projeto 2</p>
+                        <Link className={style.linkProjects} target="_blank" href="https://github.com/Gabr1el-M/board">
+                            Tasks
+                        </Link>
                     </div>
                     <div className={style.projects}>
-                        <p>Projeto 3</p>
+                        <Link className={style.linkProjects} target="_blank" href="https://github.com/Gabr1el-M/Finance-Project-React-Native">
+                            Finance React native
+                        </Link>
                     </div>
                 </div>
 

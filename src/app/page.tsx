@@ -10,7 +10,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div>
-      <div>
+      {/* <div>
         <Image
           src={background}
           alt="foto de fundo"
@@ -22,7 +22,7 @@ export default function Home() {
             objectFit: 'cover',
           }}
         />
-      </div>
+      </div> */}
 
       <main className={styles.container}>
         <h1>SEJA BEM VINDO AO MEU PORTIFÓLIO!</h1>
