@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    height: 5rem;
+    border-top: 1px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p:hover {
+        color: #ff7f50;
+    }
+}

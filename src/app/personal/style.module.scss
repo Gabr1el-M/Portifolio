@@ -62,24 +62,24 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .container {
-        display: block;
+        display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
     }
 
     .text {
         margin: 0 auto;
         padding: 10px;
         width: 90%;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         font-size: 25px;
     }
 
     .photo {
-        display: none;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
     }
 }
 

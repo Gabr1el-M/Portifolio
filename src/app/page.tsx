@@ -9,29 +9,16 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>
-      {/* <div>
-        <Image
-          src={background}
-          alt="foto de fundo"
-          placeholder='blur'
-          quality={100}
-          fill
-          sizes="100vw"
-          style={{
-            objectFit: 'cover',
-          }}
-        />
-      </div> */}
-
-      <main className={styles.container}>
+    <div className={styles.container}>
+      <div className={styles.background}></div>
+      <main className={styles.containerMain}>
         <h1>SEJA BEM VINDO AO MEU PORTIFÓLIO!</h1>
       </main>
 
       <Link href="/about" className={styles.link}>
-        <div className={styles.content}>
+        <nav className={styles.content}>
           Bora lá?
-        </div>
+        </nav>
       </Link>
     </div>
   )
@@ -59,3 +46,17 @@ export default function Home() {
       as a Background
     </p>
   </div> */}
+
+{/* <div>
+        <Image
+          src={background}
+          alt="foto de fundo"
+          placeholder='blur'
+          quality={100}
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: 'cover',
+          }}
+        />
+      </div> */}

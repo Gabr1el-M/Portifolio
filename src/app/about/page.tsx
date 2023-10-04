@@ -47,17 +47,17 @@ export default function About() {
 
                 <div className={style.content}>
                     <div className={style.projects}>
-                        <Link target="_blank" className={style.linkProjects} href="https://github.com/Gabr1el-M/System">
+                        <Link className={style.linkProjects} href="../projects/system">
                             System
                         </Link>
                     </div>
                     <div className={style.projects}>
-                        <Link className={style.linkProjects} target="_blank" href="https://github.com/Gabr1el-M/board">
+                        <Link className={style.linkProjects} href="../projects/tasks">
                             Tasks
                         </Link>
                     </div>
                     <div className={style.projects}>
-                        <Link className={style.linkProjects} target="_blank" href="https://github.com/Gabr1el-M/Finance-Project-React-Native">
+                        <Link className={style.linkProjects} href="../projects/native">
                             Finance React native
                         </Link>
                     </div>
