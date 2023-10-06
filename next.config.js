@@ -2,10 +2,10 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  output: 'export',
     
     experimental: {
       images: true,
-      output: 'export',
     },
    
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
