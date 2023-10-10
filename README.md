@@ -20,5 +20,5 @@ npm install
  Css
 
  # Link do projeto
- [Da uma conferida ai:](https://lnkd.in/dRXhh-6T)
+ [Da uma conferida ai](https://lnkd.in/dRXhh-6T)
  
